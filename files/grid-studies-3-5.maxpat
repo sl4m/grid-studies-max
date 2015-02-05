@@ -121,14 +121,14 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 321.0, 295.0, 155.0, 22.0 ],
+					"patching_rect" : [ 321.0, 295.0, 169.0, 22.0 ],
 					"saved_object_attributes" : 					{
-						"filename" : "grid-learn-max.js",
+						"filename" : "grid-studies-max.js",
 						"parameter_enable" : 0
 					}
 ,
 					"style" : "",
-					"text" : "js grid-learn-max.js"
+					"text" : "js grid-studies-max.js"
 				}
 
 			}
@@ -2517,21 +2517,21 @@
  ],
 		"dependency_cache" : [ 			{
 				"name" : "serialosc.maxpat",
-				"bootpath" : "~/Dropbox/monome/learn/max",
+				"bootpath" : "~/Work/learn/grid-studies-max/files",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "serialosc.js",
-				"bootpath" : "~/Dropbox/monome/learn/max",
+				"bootpath" : "~/Work/learn/grid-studies-max/files",
 				"patcherrelativepath" : ".",
 				"type" : "TEXT",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "grid-learn-max.js",
-				"bootpath" : "~/Dropbox/monome/learn/max",
+				"name" : "grid-studies-max.js",
+				"bootpath" : "~/Work/learn/grid-studies-max/files",
 				"patcherrelativepath" : ".",
 				"type" : "TEXT",
 				"implicit" : 1

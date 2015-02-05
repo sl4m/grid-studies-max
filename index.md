@@ -2,12 +2,14 @@
 
 Max is... (INSERT HERE)
 
-[cycling74.com](http://cycling74.com)
+## Prerequisites
+
+This lesson assumes a basic understanding of the Max patching interface. If you're absolutely new to Max it may be helpful to first go through some of most excellent Max tutorials in-app `Help > Max Documentation`.
+
+Download Max 7: [cycling74.com](http://cycling74.com)
 
 
-If you haven't yet run the Monome installer, do so first by going here:
-
-[monome.org/docs/begin](http://monome.org/docs/begin)
+Download the monome installer: [monome.org/docs/begin](http://monome.org/docs/begin)
 
 
 
@@ -27,7 +29,7 @@ Create a new object (press N) and type `bpatcher serialosc` and then hit enter. 
 
 Plug in your grid and it will appear in the serialosc box. If you connect more than one grid, you can choose which device to communicate with via the dropdown.
 
-Note: this box you've imbedded isn't serialosc itself, which is an invisible daemon on your computer. This box is a helper patcher to simplify using serialosc. We'll refer to this helper as serialosc, hopefully without much confusion.
+Note: this box you've embedded isn't serialosc itself, which is an invisible daemon on your computer. This box is a helper patcher to simplify using serialosc. We'll refer to this helper as serialosc, hopefully without much confusion.
 
 
 
@@ -132,7 +134,7 @@ Now we'll show how basic grid applications are developed by creating a step sequ
 
 *See grid-studies-3-1.maxpat for this step.*
 
-This works identically to our previous "decoupled interaction" example, but we want to only use the first six rows. So we sort them out inside the /p keys/ subpatcher:
+This works identically to our previous "decoupled interaction" example, but we want to only use the first six rows. So we sort them out inside the `p keys` subpatcher:
 
 	$2 $1 $3
 
